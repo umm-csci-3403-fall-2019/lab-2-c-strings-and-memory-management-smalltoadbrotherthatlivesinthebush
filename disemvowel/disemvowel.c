@@ -17,6 +17,6 @@ char *disemvowel(char *str) {
 		  index++;
 	  }
   }
-  result[len] = '\0';
+  result[index] = '\0';
   return result;
 }
